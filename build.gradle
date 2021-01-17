@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'test.task'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+}
